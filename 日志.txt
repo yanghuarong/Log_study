@@ -1,0 +1,12 @@
+1.Visual Studio2022的安装路径是 C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe。
+2.使用Visual Studio2022打开文件夹 E:\wanghuGame\Server\LoginServer 下面的 LogonServer.sln。
+3.链接库路径是 E:\wanghuGame\Lib
+4.然后使用 Visual Studio2022 进行编译，编译完成后打开Visual Studio2022。
+5.修复项目中的警告。
+6.如果powershell遇到乱码问题需要自行修复乱码,编码统一使用UTF-8。
+7.如果遇到问题需要自行修复，直到编译成功为止。
+8.编译后生成的文件和文件夹保存到E:\xcServerGame，如E:\xcServerGame\运行的“运行”文件夹等。
+
+
+将 G:\cocos2dx学习资料\网狐棋牌源码全套\网狐源码全套源码+详细架设教程\系统模块\全局定义 的所有文件注释添加到
+E:\wanghuGame\Global 的所有文件对应文件的注释，使用utf-8
