@@ -1,12 +1,28 @@
 1.Visual Studio2022的安装路径是 C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe。
-2.使用Visual Studio2022打开文件夹 E:\wanghuGame\Server\LoginServer 下面的 LogonServer.sln。
+2.使用Visual Studio2022打开文件夹 E:\wanghuGame\Common\ProcessControl 下面的 ProcessControl.sln。
 3.链接库路径是 E:\wanghuGame\Lib
-4.然后使用 Visual Studio2022 进行编译，编译完成后打开Visual Studio2022。
-5.修复项目中的警告。
-6.如果powershell遇到乱码问题需要自行修复乱码,编码统一使用UTF-8。
-7.如果遇到问题需要自行修复，直到编译成功为止。
-8.编译后生成的文件和文件夹保存到E:\xcServerGame，如E:\xcServerGame\运行的“运行”文件夹等。
+4.修复项目中的警告。
+5.如果powershell遇到乱码问题需要自行修复乱码,编码统一使用UTF-8。
+6.如果遇到问题需要自行修复，直到编译成功为止。
+7.编译后生成的文件和文件夹保存到E:\xcServerGame，如E:\xcServerGame\运行的“运行”文件夹等。
 
 
-将 G:\cocos2dx学习资料\网狐棋牌源码全套\网狐源码全套源码+详细架设教程\系统模块\全局定义 的所有文件注释添加到
-E:\wanghuGame\Global 的所有文件对应文件的注释，使用utf-8
+
+1. android studio 的安装路径：C:\Program Files\Android\Android Studio\bin\studio64.exe
+2. 需要编译的项目工程根目录：E:\workspace\gamehall\game-client\trunck
+3. 编译安卓平台的路径：E:\workspace\gamehall\game-client\trunck\frameworks\runtime-src\proj.android-studio
+4. 编译选择的ABI版本：arm64-v8a
+5. 需要编译安卓apk包，如果遇到错误需要自行修复，直到编译成功为止。
+6. 如果遇到警告也需要自动修复，去掉警告。
+7. 如果遇到第三方sdk先删除代码。
+8. sdk路径：E:\android-sdk-windows
+
+
+数据库路径：E:\网狐源码全套源码+详细架设教程\数据库 
+怎样将数据库附加到seq server 2022中
+
+
+分析网站路径：E:\GameAdmin 网站项目代码，需要在系统：windows 10搭建网站，配置过程中如果因为版本太旧需要升级。
+在Internet Information Serices(llS)管理器中添加网站完整配置，并生成完整的教程文档。
+
+
