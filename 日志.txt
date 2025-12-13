@@ -8,11 +8,14 @@
 
 网狐客户端升级
 1.Visual Studio2022的安装路径是 C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe。
-2.使用Visual Studio2022打开文件夹 E:\wanghuGame\Client\GameLobby 下面的 GamePlaza.sln。
-3.修复项目中的警告。
-4.如果powershell遇到乱码问题需要自行修复乱码,编码统一使用UTF-8。
-5.如果遇到问题需要自行修复，直到编译成功为止。
-6.编译后生成的文件和文件夹保存到E:\xcClientGame，如E:\xcClientGame\运行的“运行”文件夹等。
+2.使用Visual Studio2022打开文件夹 E:\wanghuGame 下面的 Platform.sln。
+3.编译客户端组件E:\wanghuGame\Client的项目。
+4.修复项目中的警告。
+5.如果powershell遇到乱码问题需要自行修复乱码,使用系统支持的编码格式。
+6.如果遇到问题需要自行修复，直到编译成功为止。
+7.编译后生成的文件和文件夹保存到E:\xcClientGame，如E:\xcClientGame\运行的“运行”文件夹等。
+
+源项目文件路径：E:\wanghuGame
 
 
 1. android studio 的安装路径：C:\Program Files\Android\Android Studio\bin\studio64.exe
@@ -56,17 +59,11 @@ ip地址：192.168.1.5
 2.分析文件夹路径项目代码，提取关于用户操作牌的主要逻辑代码。
 
 新增加需求
-1.我的作业地址：
-HOMEWORK_URL = "https://wustedu.ls365.net/University/User/Student/dohomework.aspx?m=wdzy"
-提取未完成的课程，格式：[1] 《中医护理学6》(第六学期)
-通过输入课程序号进入相应的课程作业后自动完成课程作业，所有题目完成后，自动提交，输出最终分数。
-答案自动搜索辅助地址
-# AI助手URL（用于答题）
-DEEPSEEK_URL = "https://chat.deepseek.com/"
-BAIDU_URL = "https://www.baidu.com/"
-
-
-项目路径：E:\workspace\auto_course_tool\v1.1
+1.我的考试地址：
+EXAM_URL = "https://wustedu.ls365.net/University/User/Student/ExaminationQuery.aspx?m=wdks"
+提取未完成的课程考试，格式：[1] 《中医护理学6》(第六学期)
+通过输入课程序号进入相应的课程考试后自动提取课程考试题目。
+具体实现和run_homework差不多，项目地址：E:\workspace\auto_course_tool\v1.1
 
 
 项目路径：E:\workspace\auto_course_tool\v1.1
