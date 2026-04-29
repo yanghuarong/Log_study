@@ -16,6 +16,13 @@
 7.编译后生成的文件和文件夹保存到E:\xcClientGame，如E:\xcClientGame\运行的“运行”文件夹等。
 
 源项目文件路径：E:\wanghuGame
+子项目路径：E:\wanghuGame\Client\GameControls
+修复项目中的警告和错误。
+
+源项目文件路径：E:\wanghuGame
+Visual Studio2022的安装路径是 C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe
+Visual Studio 2022打开E:\wanghuGame\ClientComponents.sln编译报错。
+修复报错和警告，报错日志如下：
 
 
 1. android studio 的安装路径：C:\Program Files\Android\Android Studio\bin\studio64.exe
@@ -39,7 +46,7 @@
 网站搭建：
 物理地址：E:\GameAdmin
 网站名称：网站后台
-ip地址：192.168.1.5
+ip地址：192.168.1.4
 端口号:8001
 根据信息搭建IIS网站服务，系统是win10
 在Internet Information Serices(llS)管理器中添加网站完整配置
@@ -48,32 +55,25 @@ ip地址：192.168.1.5
 网站搭建：
 物理地址：E:\GameFront
 网站名称：网站前台
-ip地址：192.168.1.5
+ip地址：192.168.1.4
 端口号:8002
 根据信息搭建IIS网站服务，系统是win10
 默认文档启动文件：E:\GameFront\Index.aspx
 在Internet Information Serices(llS)管理器中添加网站完整配置
 
 
-1.先解析操作牌的实现原理，提取用户拖动牌重新组合牌的逻辑。
-2.分析文件夹路径项目代码，提取关于用户操作牌的主要逻辑代码。
+炸金花升级
+旧项目位置：G:\cocos2dx学习资料\网狐棋牌源码全套\网狐6.6源码棋牌游戏源码(正式商业版)
+1.Visual Studio2022的安装路径是 C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe。
+2.使用Visual Studio2022打开文件夹 E:\subGame\zjh 下面的 GameProject.sln。
+3.升级并编译项目。
+4.修复项目中的警告。
+5.如果powershell遇到乱码问题需要自行修复乱码,使用UTF-8编码修复。
+6.如果遇到问题需要自行修复，直到编译成功为止。
+7.编译后生成的文件和文件夹保存到E:\subGame\zjh中。
 
-新增加需求
-1.我的考试地址：
-EXAM_URL = "https://wustedu.ls365.net/University/User/Student/ExaminationQuery.aspx?m=wdks"
-提取未完成的课程考试，格式：[1] 《中医护理学6》(第六学期)
-通过输入课程序号进入相应的课程考试后自动提取课程考试题目。
-具体实现和run_homework差不多，项目地址：E:\workspace\auto_course_tool\v1.1
-
-
-项目路径：E:\workspace\auto_course_tool\v1.1
-分析项目v1.1版本，在config.py配置开关是否跳过以下模块：
-【自动答题模块 - 使用DeepSeek分析】
-已加载 10 道题目
-
-选择答题模式:
-  1. 使用 DeepSeek AI 分析（需要网络）
-  2. 使用备用方式（搜索引擎）
-  3. 手动答题（程序保持页面打开）
-
-请选择模式 (1/2/3，默认1):
+大厅项目文件路径：E:\wanghuGame
+子游戏项目路径：E:\subGame\zjh
+大厅启动组件路径：E:\wanghuGame\运行\Release\Unicode
+子游戏编译生成路径：E:\subGame\zjh\build
+分析项目，子游戏编译完成的组件和大厅启动组件整合在一起，并且登录进入大厅后能正常进入子游戏zjh
